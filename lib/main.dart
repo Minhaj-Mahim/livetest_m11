@@ -7,6 +7,8 @@ void main() {
 }
 
 class liveTest_m11 extends StatefulWidget {
+  const liveTest_m11({super.key});
+
   @override
   _liveTest_m11State createState() => _liveTest_m11State();
 }
@@ -82,7 +84,7 @@ class _liveTest_m11State extends State<liveTest_m11> {
                   Text('Condition: ${weather.condition}'),
                   Text('Humidity: ${weather.humidity}%'),
                   Text('Wind Speed: ${weather.windSpeed} m/s'),
-                  Divider(height: 16,),
+                  const Divider(height: 16,),
                 ],
               ),
             );
