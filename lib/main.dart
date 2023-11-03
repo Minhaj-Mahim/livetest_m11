@@ -81,7 +81,7 @@ class _liveTest_m11State extends State<liveTest_m11> {
                   Text('Temperature: ${weather.temperature}°C'),
                   Text('Condition: ${weather.condition}'),
                   Text('Humidity: ${weather.humidity}%'),
-                  Text('Wind Speed: ${weather.windSpeed} km/h'),
+                  Text('Wind Speed: ${weather.windSpeed} m/s'),
                   Divider(),
                 ],
               ),
