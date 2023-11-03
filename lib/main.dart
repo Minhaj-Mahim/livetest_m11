@@ -73,7 +73,7 @@ class _liveTest_m11State extends State<liveTest_m11> {
           itemBuilder: (context, index) {
             final weather = weatherList[index];
             return ListTile(
-              title: Text(weather.city),
+              title: Text('City: ${weather.city}'),
               subtitle: Column(
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -82,7 +82,7 @@ class _liveTest_m11State extends State<liveTest_m11> {
                   Text('Condition: ${weather.condition}'),
                   Text('Humidity: ${weather.humidity}%'),
                   Text('Wind Speed: ${weather.windSpeed} m/s'),
-                  Divider(),
+                  Divider(height: 16,),
                 ],
               ),
             );
