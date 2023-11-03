@@ -66,7 +66,7 @@ class _liveTest_m11State extends State<liveTest_m11> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Weather Info App'),
+          title: const Text('Weather Info App'),
         ),
         body: ListView.builder(
           itemCount: weatherList.length,
@@ -86,7 +86,6 @@ class _liveTest_m11State extends State<liveTest_m11> {
                 ],
               ),
             );
-            Divider();
           },
         ),
       ),
